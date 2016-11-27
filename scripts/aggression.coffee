@@ -36,43 +36,43 @@ module.exports = {
       2: [
         {
           giphy: 'insomnia',
-          message: "Maybe you didn't hear me before. :anguished: It's really getting late. Time to call it a night.",
+          message: "Maybe you didn't hear me before, #{name}. :anguished: It's really getting late. Time to call it a night.",
         },
         {
           giphy: 'insomnia',
-          message: "Must not have heard me before. :anguished: Power down that computer and hit the hay.",
+          message: "Must not have heard me before, #{name}. :anguished: Power down that computer and hit the hay.",
         },
         {
           giphy: 'insomnia',
-          message: "Maybe my last two messages got lost in the mail. :anguished: Hit the sack and get re-energized for tomorrow!"
+          message: "Maybe my last two messages got lost in the mail. :anguished: Hit the sack and get re-energized for tomorrow, #{name}!"
         }
       ],
       3: [
         {
           giphy: 'annoyed'
-          message: "I'm starting to think you're purposely ignoring me now. :angry: You're testing my patience. Time to sign off.",
+          message: "I'm starting to think you're purposely ignoring me now, #{name}. :angry: You're testing my patience. Time to sign off.",
         },
         {
           giphy: 'annoyed'
-          message: "Am I talking to myself? :angry: I'm serious this time. Go to bed.",
+          message: "Am I talking to myself, #{name}? :angry: I'm serious this time. Go to bed.",
         },
         {
           giphy: 'annoyed'
-          message: "Now you're just being rude. :angry: Power your computer down and get in bed."
+          message: "Now you're just being rude, #{name}. :angry: Power your computer down and get in bed."
         }
       ],
       4: [
         {
           giphy: 'mad',
-          message: "That's it. :fire: :angry: :fire: I'm going to have to come over there myself and turn your computer off for you!",
+          message: "That's it, #{name}. :fire: :angry: :fire: I'm going to have to come over there myself and turn your computer off for you!",
         },
         {
           giphy: 'mad',
-          message: "I've been nothing but patient with you, and this is how you treat me? :fire: :angry: :fire: Fine. Don't sleep then. I'm sure you won't regret that decision.",
+          message: "I've been nothing but patient with you, and this is how you treat me, #{name}? :fire: :angry: :fire: Fine. Don't sleep then. I'm sure you won't regret that decision.",
         },
         {
           giphy: 'mad',
-          message: "Fine. I tried my best. :fire: :angry: :fire: You're digging your own grave, pal. :ghost:"
+          message: "Fine. I tried my best. :fire: :angry: :fire: You're digging your own grave, #{name}. :ghost:"
         }
       ]
     }
