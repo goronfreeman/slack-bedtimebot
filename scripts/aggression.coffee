@@ -12,7 +12,7 @@ module.exports = {
         },
         {
           giphy: 'sleep',
-          message: "Hi, #{name}. Eyelids feeling heavy? Maybe it's time to go to sleep. :sleeping:",
+          message: "Hi, #{name}. Eyelids feeling heavy? Maybe it's time to go to sleep. :sleeping:"
         },
         {
           giphy: 'sleep',
@@ -22,53 +22,53 @@ module.exports = {
       1: [
         {
           giphy: 'bed',
-          message: "Still working, #{name}? You should try to get at least 7 hours of sleep per night. :bed:",
+          message: "Still working, #{name}? You should try to get at least 7 hours of sleep per night. :bed:"
         },
         {
           giphy: 'bed',
-          message: "Still working, #{name}? Did you know that Man is the only mammal that willingly delays sleep? :bed:",
+          message: "Still working, #{name}? Did you know that man is the only mammal that willingly delays sleep? :bed:"
         },
         {
           giphy: 'bed',
-          message: "Still working, #{name}? Sleep is just as important as diet and exercise. :bed:",
+          message: "Still working, #{name}? Sleep is just as important as diet and exercise. :bed:"
         }
       ],
       2: [
         {
           giphy: 'insomnia',
-          message: "Maybe you didn't hear me before, #{name}. :anguished: It's really getting late. Time to call it a night.",
+          message: "Maybe you didn't hear me before, #{name}. :anguished: It's really getting late. Time to call it a night."
         },
         {
           giphy: 'insomnia',
-          message: "Must not have heard me before, #{name}. :anguished: Power down that computer and hit the hay.",
+          message: "Must not have heard me before, #{name}. :anguished: Power down that computer, and hit the hay."
         },
         {
           giphy: 'insomnia',
-          message: "Maybe my last two messages got lost in the mail. :anguished: Hit the sack and get re-energized for tomorrow, #{name}!"
+          message: "Maybe my last two messages got lost in the mail. :anguished: Hit the sack, and get re-energized for tomorrow, #{name}!"
         }
       ],
       3: [
         {
-          giphy: 'annoyed'
-          message: "I'm starting to think you're purposely ignoring me now, #{name}. :angry: You're testing my patience. Time to sign off.",
+          giphy: 'annoyed',
+          message: "I'm starting to think you're purposely ignoring me now, #{name}. :angry: You're testing my patience. Time to sign off."
         },
         {
-          giphy: 'annoyed'
-          message: "Am I talking to myself, #{name}? :angry: I'm serious this time. Go to bed.",
+          giphy: 'annoyed',
+          message: "Am I talking to myself, #{name}? :angry: I'm serious this time. Go to bed."
         },
         {
-          giphy: 'annoyed'
-          message: "Now you're just being rude, #{name}. :angry: Power your computer down and get in bed."
+          giphy: 'annoyed',
+          message: "Now you're just being rude, #{name}. :angry: Power your computer down, and get in bed."
         }
       ],
       4: [
         {
           giphy: 'mad',
-          message: "That's it, #{name}. :fire: :angry: :fire: I'm going to have to come over there myself and turn your computer off for you!",
+          message: "That's it, #{name}. :fire: :angry: :fire: I'm going to have to come over there myself and turn your computer off for you!"
         },
         {
           giphy: 'mad',
-          message: "I've been nothing but patient with you, and this is how you treat me, #{name}? :fire: :angry: :fire: Fine. Don't sleep then. I'm sure you won't regret that decision.",
+          message: "I've been nothing but patient with you, and this is how you treat me, #{name}? :fire: :angry: :fire: Fine. Don't sleep then. I'm sure you won't regret that decision."
         },
         {
           giphy: 'mad',
