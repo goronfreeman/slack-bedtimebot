@@ -19,7 +19,5 @@ module.exports = (robot) ->
 get_giphy = (query, callback) ->
   request "http://api.giphy.com/v1/gifs/search?q=#{query}&api_key=dc6zaTOxFJmzC", (error, response, body) ->
     data = JSON.parse(body)
-    max = data.data.length
-    min = 0
-    randomNumber = Math.floor(Math.random() * (max - min)) + min
+    randomNumber = Math.floor(Math.random() * data.data.length)
     callback data.data[randomNumber].images.downsized.url
