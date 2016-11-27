@@ -4,8 +4,7 @@ aggression = require('./aggression')
 module.exports = (robot) ->
   robot.listen(
     (message) ->
-      cont = 0 <= new Date(Date.now()).getHours() <= 23
-      # cont = 0 <= new Date(Date.now()).getHours() <= 5
+      cont = 0 <= new Date(Date.now()).getHours() <= 5
       aggression.clear() unless cont
       return cont
     (response) ->
