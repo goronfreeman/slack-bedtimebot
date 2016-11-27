@@ -1,5 +1,6 @@
 request = require('request')
 aggression = require('./aggression')
+facts = require('./facts')
 
 module.exports = (robot) ->
   robot.listen(
@@ -12,11 +13,14 @@ module.exports = (robot) ->
       msgName = user.name
       if msgName and msgName != robot.name
         msg = aggression.getMessage user
-        get_giphy msg.giphy, (url) ->
+        getGiphy msg.giphy, (url) ->
           response.reply "#{msg.message} " + url
   )
 
-get_giphy = (query, callback) ->
+  robot.respond /sleep\sfact/i, (res) ->
+    res.reply facts.getFact()
+
+getGiphy = (query, callback) ->
   request "http://api.giphy.com/v1/gifs/search?q=#{query}&api_key=dc6zaTOxFJmzC", (error, response, body) ->
     data = JSON.parse(body)
     randomNumber = Math.floor(Math.random() * data.data.length)
