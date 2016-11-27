@@ -22,8 +22,7 @@ get_giphy = (query, callback) ->
     randomNumber = Math.floor(Math.random() * data.data.length)
     callback data.data[randomNumber].images.downsized.url
 
-# Prevents Heroku app from sleeping by pinging it every 29 minutes.
+# Prevents Heroku app from sleeping by pinging it every 20 minutes.
 setInterval (->
   request.get(process.env.APP_URL)
-  return
-), 1740000
+), 1200000
