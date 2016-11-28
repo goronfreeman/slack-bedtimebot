@@ -1,4 +1,5 @@
 module.exports = {
+  # Facts taken from http://www.factslides.com/s-Sleep
   facts:
     [
       "Humans spend a third of their life sleeping. That's about 25 years.",
@@ -25,7 +26,31 @@ module.exports = {
       "Horse can sleep standing.",
       "Rabbits often sleep with their eyes open.",
       "John Lennon sometimes liked to sleep in an old coffin.",
-      "In 1849, David Atchison became president of the United States for just one day, and he spent most of the day sleeping."
+      "In 1849, David Atchison became president of the United States for just one day, and he spent most of the day sleeping.",
+      "You burn more calories sleeping than you do watching television.",
+      "Sleep deprivation affects the brain in multiple ways that can impair judgment and slow reaction.",
+      "Neuroscientists believe babies don't dream for the first few years of their life.",
+      "Women experience significantly more nightmares than men and have more emotional dreams, a study found.",
+      "A baby's brain can use up to 50% of the total glucose supply, which may help explain why babies need so much sleep.",
+      "Giraffes only need 5 to 30 minutes of sleep in a 24-hour period.",
+      "Koalas sleep up to 20 hours a day.",
+      "In darkness, most people eventually adjust to a 48-hour cycle: 36 hours of activity followed by 12 hours of sleep. The reasons are still unclear.",
+      "The changes of eating even one spider in your sleep throughout your lifetime is close to 0%.",
+      "The average person in France sleeps 8.83 hours per day, the most in the developed world.",
+      "40% of adult Americans have always slept on the same side of the bed.",
+      "Drinking caffeine in the evening delays our brain's release of melatonin and interrupts our circadian rhythm by as much as 40 minutes.",
+      "While you sleep, your brain filters out noises that might wake you up if it doesn't think you're in danger.",
+      "We lose over a pound of weight during sleep by exhaling.",
+      "Dysania is the state of finding it hard to get out of bed in the morning.",
+      "Depression can cause you to dream up to 3 to 4 times more than you normally would.",
+      "Somniphobia is the fear of falling asleep.",
+      "The average person falls asleep in seven minutes.",
+      "People who procrastinate may be more likely to have insomnia, a study found.",
+      "People who requently take naps tend to die younger than those who don't, a study found.",
+      "It's illegal to lie down and fall asleep with your shoes on in North Dakota.",
+      "Trees \"sleep\" at night, relaxing their branches after dawn and perking them up before sunrise.",
+      "3 AM is when most Americans are sleeping (95.1%). Conversely, 6 PM is when most Americans are awake (97.5%).",
+      "People in Britain who wake in the middle of the night are most likely to do it at 3:44 AM."
     ]
 
   getFact: ->
