@@ -47,7 +47,7 @@ To get up and running, you will need to set some environment variables.
 First, [create a new bot user][new-bot-user] from your Slack team's settings
 page and copy the API token.
 
-    % heroku config:add HUBOT_CAMPFIRE_TOKEN="..."
+    % heroku config:add HUBOT_SLACK_TOKEN="..."
 
 Next, find your Heroku app's URL. This is the endpoint that Bedtimebot will
 ping every 20 minutes to prevent Heroku from putting your bot to sleep while
