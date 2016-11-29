@@ -5,13 +5,13 @@ facts = require('./facts')
 module.exports = (robot) ->
   robot.listen(
     (message) ->
-      cont = 0 <= new Date(Date.now()).getHours() <= 5
+      cont = 0 <= new Date(Date.now()).getHours() <= 4
       aggression.clear() unless cont
       return cont
     (response) ->
       user = response.message.user
       msgName = user.name
-      if msgName and msgName != robot.name
+      if msgName and msgName isnt robot.name
         msg = aggression.getMessage user
         getGiphy msg.giphy, (url) ->
           response.reply "#{msg.message} " + url
